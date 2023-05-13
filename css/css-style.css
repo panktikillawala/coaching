@@ -24,7 +24,18 @@
 .et_monarch .et_social_popup_content h3, .et_monarch .et_social_popup_content p, .et_monarch .et_social_popup_content:after,
 .et_monarch .et_social_flyin h3, .et_monarch .et_social_flyin p, .et_monarch .et_social_flyin:after,
 .et_monarch .et_social_pinterest_window h3, .et_monarch .et_social_mobile, .et_monarch .et_social_mobile_button, .et_monarch .et_social_heading { font-family: 'Open Sans', helvetica, arial, sans-serif; line-height: 1em; text-transform: none; font-weight: normal; margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background-image:none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); -moz-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+	opacity: 0.7;
+  }
 /*------------------------------------------------*/
 /*-----------------[BASIC STYLES]-----------------*/
 /*------------------------------------------------*/
