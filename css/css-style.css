@@ -36,6 +36,71 @@
   .fa:hover {
 	opacity: 0.7;
   }
+
+
+  .box {
+	margin: 50px auto;
+	background: rgb(192,166,244)!important;
+	padding: 20px;
+	text-align: center;
+	font-weight: 900;
+	color: #fff;
+	font-family: arial;
+	position: relative;
+  }
+  
+  .sb1:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 10px solid rgb(192,166,244)!important;
+	border-right: 10px solid transparent;
+	border-top: 10px solid rgb(192,166,244)!important;
+	border-bottom: 10px solid transparent;
+	right: -19px;
+	top: 6px;
+  }
+  
+  .sb2:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid rgb(192,166,244)!important;
+	border-top: 10px solid rgb(192,166,244)!important;
+	border-bottom: 10px solid transparent;
+	left: -19px;
+	top: 6px;
+  }
+  
+  .sb3:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 10px solid rgb(192,166,244)!important;
+	border-right: 10px solid transparent;
+	border-top: 10px solid rgb(192,166,244)!important;
+	border-bottom: 10px solid transparent;
+	left: 19px;
+	bottom: -19px;
+  }
+  
+  .sb4:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid rgb(192,166,244)!important;
+	border-top: 10px solid rgb(192,166,244)!important;
+	border-bottom: 10px solid transparent;
+	right: 19px;
+	bottom: -19px;
+  }
+  
 /*------------------------------------------------*/
 /*-----------------[BASIC STYLES]-----------------*/
 /*------------------------------------------------*/
