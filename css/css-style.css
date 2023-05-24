@@ -123,7 +123,10 @@
 .et_monarch .et_social_networks p, .et_monarch .et_social_sidebar_networks p {
 	font-family: 'Open Sans', helvetica, arial, sans-serif; line-height: 1.6em; font-weight: 400; font-size: 14px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #666;
 }
-
+ul li{
+	text-indent: -1em;
+	padding-left: 20px;
+	}
 .et_monarch .et_social_placeholder { width: 7px; height: 14px; display: inline-block; }
 
 .et_monarch .et_social_networks, .et_monarch .et_social_sidebar_networks, .et_monarch .widget_monarchwidget a { text-shadow: none !important; }
