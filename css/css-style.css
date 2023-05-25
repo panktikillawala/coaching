@@ -127,6 +127,13 @@ ul li{
 	text-indent: -1em;
 	padding-left: 20px;
 	}
+
+	.subhead::first-letter {
+		initial-letter: 5;
+		padding-right: 5px;
+	  }
+
+	  
 .et_monarch .et_social_placeholder { width: 7px; height: 14px; display: inline-block; }
 
 .et_monarch .et_social_networks, .et_monarch .et_social_sidebar_networks, .et_monarch .widget_monarchwidget a { text-shadow: none !important; }
