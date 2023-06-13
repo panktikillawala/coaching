@@ -1150,111 +1150,132 @@ margin-right: -66px !important; }
 .et_monarch .et_social_no_animation.et_social_animated, .et_monarch .et_social_animated .et_social_no_animation { opacity: 1; }
 
 
-p,
-q {
-  font-size: 1.2rem;
+.container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+
+
 }
 
-q {
-  font-weight: 500;
-  line-height: 1.5rem;
+.card {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(174, 174, 174, 0.479);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
-p {
-  color: #e6c8ea;
+.card:hover {
+    border: 1px solid #e6c8ea;
+    box-shadow: rgba(0, 98, 255, 0.15) 0px 2px 8px;
 }
 
-.customer-revs {
-  margin: 0 auto 0 auto;
+.image {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 2px solid #e6c8ea;
+    object-fit: cover;
 }
 
-.author {
-	font-size: x-large;
-	font-weight: bold;
-}
-.rectangle {
-  width: 40%;
-  height: 100vh;
-  background: #e6c8ea;
-
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
+.card-body {
+    padding: 5px;
 }
 
-/* slideshow container */
-.slideshow-container {
-  position: relative;
-  width: 60rem;
-  max-width: 80%;
-  margin: 0 auto;
+.title {
+    font-size: 14px;
+    letter-spacing: .07rem;
+    color: rgb(86, 86, 86);
 }
 
-/* Slides */
-.mySlides {
-  display: none;
-  padding: 2rem 5rem 0 5rem;
-  text-align: center;
+.subtitle {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #e6c8ea;
+    letter-spacing: .05rem;
 }
 
-.mySlidesContainer {
-  min-height: 5rem;
-  padding: 3.5rem 2.5rem 2rem 3.5rem;
-  background: #e6c8ea;
+.text-review {
+    height: 250px;
+    margin-top: 12px;
+    overflow: auto;
 }
 
-/* next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 55%;
-  width: auto;
-  margin-top: -1.875rem;
-  padding: 1rem;
-  color: #232323;
-  font-weight: bold;
-  font-size: 3rem;
-  border-radius: 3px;
-  user-select: none;
-  transition: 0.4s;
+.text {
+    font-size: 14px;
+    color: rgb(86, 86, 86);
 }
 
-/* position the "next button" to the right */
-.next {
-  position: absolute;
-  right: 0;
-  border-radius: 3px;
+.btn-group {
+    margin: 8px;
+    align-items: center;
 }
 
-/* on hover, add a black bg color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: #000; /* fallback color */
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #e6c8ea;
-  text-decoration: none;
+.btn {
+    font-size: 14px;
+    color: darkgray;
+    background-color: transparent;
+    padding: 4px 8px;
+    margin-top: 4px;
+    border: none;
+    transition: all .5s;
 }
 
-/* the dot/bullet/indicator container */
-.dot-container {
-  text-align: center;
-  padding: 0 1.25rem;
+.btn:active {
+    border-radius: 50%;
+    box-shadow: rgba(210, 210, 210, 0.68) 0px 2px 8px;
 }
 
-/* the dots/bullets/indicators */
-.dot {
-  height: 0.9375rem;
-  width: 0.9375rem;
-  margin: 0 2px;
-  background-color: #e6c8ea;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.4s ease;
+.btn-left {
+    margin-right: 8px;
 }
 
-/* add bg color to the active dot/circle */
-.active {
-  background-color: #232323;
+.btn-right {
+    margin-left: 8px;
+}
+
+.btn-surprise {
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 12px;
+    border: 2px solid rgba(0, 98, 255, 0.256);
+    background-color: transparent;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (min-width: 500px) {
+    .card {
+        width: 400px;
+        height: 410px;
+    }
+
+    .image {
+        width: 125px;
+        height: 125px;
+    }
+
+    .title {
+        font-size: 1.15rem;
+    }
+
+    .subtitle {
+        font-size: 20px;
+		font-weight: bolder;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .btn-surprise {
+        font-size: 14px;
+    }
 }
