@@ -1150,7 +1150,7 @@ margin-right: -66px !important; }
 .et_monarch .et_social_no_animation.et_social_animated, .et_monarch .et_social_animated .et_social_no_animation { opacity: 1; }
 
 
-.container {
+.container-reviews {
     display: flex;
     justify-content: center;
     padding-bottom: 16px;
@@ -1174,30 +1174,13 @@ margin-right: -66px !important; }
     box-shadow: rgba(0, 98, 255, 0.15) 0px 2px 8px;
 }
 
-.image {
-    width: 85px;
-    height: 85px;
-    border-radius: 50%;
-    border: 2px solid #e6c8ea;
-    object-fit: cover;
-}
+
 
 .card-body {
     padding: 5px;
 }
 
-.title {
-    font-size: 14px;
-    letter-spacing: .07rem;
-    color: rgb(86, 86, 86);
-}
 
-.subtitle {
-    font-size: 10px;
-    text-transform: uppercase;
-    color: #e6c8ea;
-    letter-spacing: .05rem;
-}
 
 .text-review {
     height: 250px;
@@ -1207,7 +1190,6 @@ margin-right: -66px !important; }
 
 .text {
     font-size: 14px;
-    color: rgb(86, 86, 86);
 }
 
 .btn-group {
@@ -1257,23 +1239,15 @@ margin-right: -66px !important; }
         height: 410px;
     }
 
-    .image {
-        width: 125px;
-        height: 125px;
-    }
+  
 
-    .title {
-        font-size: 1.15rem;
-    }
+   
 
     .subtitle {
         font-size: 20px;
 		font-weight: bolder;
     }
 
-    .text {
-        font-size: 1rem;
-    }
 
     .btn-surprise {
         font-size: 14px;
