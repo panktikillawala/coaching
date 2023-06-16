@@ -2,22 +2,22 @@ const reviews = [
     {
         id: 1,
         //img: ""
-        name: 'FirstName LastInitial',
+        //name: 'FirstName LastInitial',
         job: 'HR Director, London',
         review: 'I have worked with Pankti for a number of coaching sessions and found them hugely rewarding.Not only has Pankti given me valuable time to reflect on work and personal situations, but she has helped me see scenarios differently and created the opportunity for me to explore what I really wanted.  Pankti created a safe yet challenging environment for each of our session.'
     },
-    {
-        id: 2,
-        name: 'AnotherName LastInitial',
-        job: 'Engineering Manager',
-        review: 'cferefre'
-    },
-    {
-        id: 3,
-        name: 'SomeName LastInitial',
-        job: 'Director',
-        review: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.'
-    },
+    // {
+    //     id: 2,
+    //     name: 'AnotherName LastInitial',
+    //     job: 'Engineering Manager',
+    //     review: 'cferefre'
+    // },
+    // {
+    //     id: 3,
+    //     name: 'SomeName LastInitial',
+    //     job: 'Director',
+    //     review: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.'
+    // },
     // {
     //     id: 4,
     //     name: 'Masha Raymers',
@@ -50,8 +50,9 @@ function showPerson(person) {
 
     // img.src = item.img;
     name.textContent = item.name;
-    job.textContent = item.job;
     review.textContent = item.review;
+    job.textContent = item.job;
+
 }
 
 prevButton.addEventListener('click', function () {
