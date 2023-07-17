@@ -1,17 +1,17 @@
 const reviews = [
     {
-        id: 1,
+        id: 2,
         //img: ""
         //name: 'FirstName LastInitial',
         job: 'HR Director, London',
         review: 'I have worked with Pankti for a number of coaching sessions and found them hugely rewarding.Not only has Pankti given me valuable time to reflect on work and personal situations, but she has helped me see scenarios differently and created the opportunity for me to explore what I really wanted.  Pankti created a safe yet challenging environment for each of our session.'
     },
-    // {
-    //     id: 2,
-    //     name: 'AnotherName LastInitial',
-    //     job: 'Engineering Manager',
-    //     review: 'cferefre'
-    // },
+    {
+        id: 1,
+        name: 'Franki Hale',
+        job: 'Managing Director/Founder Sonder Associates',
+        review: 'Pankti has helped me gain clarity and understanding on my next steps whenever I felt stuck. Through powerful questions she challenged my thinking which helped me set my goals and take action both in my professional and personal life. She creates a calm and comfortable environment making it easy to talk to her.'
+    },
     // {
     //     id: 3,
     //     name: 'SomeName LastInitial',
