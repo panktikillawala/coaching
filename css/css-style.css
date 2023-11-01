@@ -1249,7 +1249,7 @@ margin-right: -66px !important; }
 }
 
 .testim .arrow {
-    display: block;
+    display: none;
     position: absolute;
     color: #333;
     cursor: pointer;
