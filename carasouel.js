@@ -3,8 +3,8 @@
 var	testim = document.getElementById("testim"),
 		testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
     testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
-    testimLeftArrow = document.getElementById("left-arrow"),
-    testimRightArrow = document.getElementById("right-arrow"),
+    // testimLeftArrow = document.getElementById("left-arrow"),
+    // testimRightArrow = document.getElementById("right-arrow"),
     testimSpeed = 7500,
     currentSlide = 0,
     currentActive = 0,
@@ -47,13 +47,13 @@ window.onload = function() {
         }, testimSpeed)
     }
 
-    testimLeftArrow.addEventListener("click", function() {
-        playSlide(currentSlide -= 1);
-    })
+    // testimLeftArrow.addEventListener("click", function() {
+    //     playSlide(currentSlide -= 1);
+    // })
 
-    testimRightArrow.addEventListener("click", function() {
-        playSlide(currentSlide += 1);
-    })    
+    // testimRightArrow.addEventListener("click", function() {
+    //     playSlide(currentSlide += 1);
+    // })    
 
     for (var l = 0; l < testimDots.length; l++) {
         testimDots[l].addEventListener("click", function() {
