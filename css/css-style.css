@@ -1816,3 +1816,102 @@ margin-right: -66px !important; }
 	}
 
 }
+
+
+
+ #wrapper {
+	/* margin: 60px; */
+	margin-left: 350px;
+}
+ #wrapper p {
+	margin: 0;
+	width: 780px;
+	font-size: 34px;
+}
+ #wrapper p.f1 {
+	white-space: nowrap;
+	overflow: hidden;
+	animation: anm1 6s steps(60, end);
+}
+ #wrapper p.s2 {
+	opacity: 0;
+}
+ #wrapper p.f1.s2 {
+	padding:10px;
+	justify-content: center;
+	opacity: 1;
+}
+ #wrapper p .line {
+	animation: 2s linear 0s normal none infinite running anm2;
+}
+@keyframes anm1 {
+	0% {
+		width: 0px;
+   }
+}
+@keyframes anm2 {
+	50% {
+		opacity: 0;
+   }
+	100% {
+		opacity: 1;
+   }
+}
+
+
+@media all and (min-width:481px) and (max-width: 568px) {
+	#wrapper {
+		/* margin: 60px; */
+		 margin-left: 35px; 
+		margin:0px
+	} 
+	#wrapper p {
+		margin: 0;
+		width: 780px;
+		font-size: 20px !important;
+	}
+	#wrapper p.f1 {
+		white-space: nowrap;
+		overflow: hidden;
+		font-size:25px !important;
+		animation: anm1 6s steps(60, end);
+	}
+ }
+  
+  @media all and (min-width:321px) and (max-width: 480px) {
+	#wrapper {
+		/* margin: 60px; */
+		/* margin-left: 350px; */
+		margin:0;
+	} 
+	#wrapper p {
+		margin: 0;
+		width: 780px;
+		font-size: 20px !important;
+	}
+	#wrapper p.f1 {
+		white-space: nowrap;
+		overflow: hidden;
+		font-size:25px !important;
+		animation: anm1 6s steps(60, end);
+	}
+ }
+  
+  @media all and (min-width:0px) and (max-width: 320px) {
+	#wrapper {
+		/* margin: 60px; */
+		/* margin-left: 350px; */
+		margin:0
+	} 
+	#wrapper p {
+		margin: 0;
+		width: 780px;
+		font-size: 20px !important;
+	}
+	#wrapper p.f1 {
+		white-space: nowrap;
+		overflow: hidden;
+		font-size:25px !important;
+		animation: anm1 6s steps(60, end);
+	}
+}
