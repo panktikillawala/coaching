@@ -123,10 +123,10 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <li id="menu-item-24811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24811"><a href="speaking.html" style="color: black !important;">PARTNER WITH ME</a>
 	<ul  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24811">
 		<br/>
-	<li id="menu-item-24811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24811"><a href="corporates.html" style="color: black !important;">CORPORATES</a></li>
+	<li id="menu-item-24811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24811"><a href="corporates.html" style="color: black !important;">ORGANISATIONS</a></li>
 	<li id="menu-item-24811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24811"><a href="individuals.html" style="color: black !important;"> INDIVIDUALS</a></li>
 	</ul>
-</li><li id="menu-item-24768" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24768"><a href="blog.html" style="color: black !important;">BLOG</a></li>
+</li><li id="menu-item-24768" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24768"><a href="blog.html" style="color: black !important;">MEDIA</a></li>
 <li id="menu-item-25987" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25987"><a href="https://tidycal.com/panktikillawala/clarity-call" style="color: black !important ;">BOOK A CALL</a></li>
 </ul>						
 </nav>
@@ -190,7 +190,12 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 			</div> <!-- .et_pb_row -->
 				
 				
-			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_1 et_section_regular">
+
+			
+				
+
+			</div> <!-- .et_pb_section -->
+			<div class="et_pb_section et_pb_section_1 et_section_regular">
 				
 				
 				
@@ -233,7 +238,38 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 			</div> <!-- .et_pb_row -->
 				
 				
-			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_2 et_pb_with_background et_section_regular">
+			</div> <!-- .et_pb_section -->
+			
+			
+			<div class=" et_pb_row et_pb_row_0">
+				<div class="et_pb_column et_pb_column_4_4  et_pb_column_0 et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_text et_pb_module et_pb_bg_layout_dark et_pb_text_align_left  et_pb_text_1">
+				
+				
+				<div class="et_pb_text_inner" style="color: #e6c8ea;font-family: Verdana, Geneva, sans-serif;">
+					<p>PODCAST GUEST SPEAKER</p>
+				</div>
+			</div> <!-- .et_pb_text -->
+			<div class="et_pb_text et_pb_module et_pb_bg_layout_dark et_pb_text_align_left  et_pb_text_0">
+				
+				
+				<div class="et_pb_text_inner" style="color: black;font-family: Verdana, Geneva, sans-serif;" >
+					<p>
+						<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6hEuJIxuuOzyXPxiD84ZS8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>				
+						</p>
+						<a href = "https://open.spotify.com/show/05x0MWKpgxVVr88o2KjkuD" > Listen on Spotify </a>
+						<br/>
+						<a href = "https://podcasts.apple.com/gb/podcast/escape-the-rat-race/id1689188364"> Listen on Apple </a>
+				</div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+			<div class="et_pb_section et_pb_section_2 et_pb_with_background et_section_regular">
 				
 				
 				
@@ -341,6 +377,35 @@ var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPr
 	</script>
 	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FNSSG8DRLP"></script>
+<script type="text/javascript">
+	var message="Image Download Disabled!";
+
+	function clickIE4(){
+		if (event.button==2){
+			alert(message);
+			return false;
+		}
+	}
+
+	function clickNS4(e){
+		if (document.layers||document.getElementById&&!document.all){
+			if (e.which==2||e.which==3){
+				alert(message);
+				return false;
+			}
+		}
+	}
+
+	if (document.layers){
+		document.captureEvents(Event.MOUSEDOWN);
+		document.onmousedown=clickNS4;
+	}
+	else if (document.all&&!document.getElementById){
+		document.onmousedown=clickIE4;
+	}
+
+	document.oncontextmenu=new Function("alert(message);return false")
+</script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

@@ -123,10 +123,10 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <li id="menu-item-24811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24811"><a href="speaking.html" style="color: black !important;">PARTNER WITH ME</a>
 	<ul  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24811">
 		<br/>
-	<li id="menu-item-24811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24811"><a href="corporates.html" style="color: black !important;">CORPORATES</a></li>
+	<li id="menu-item-24811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24811"><a href="corporates.html" style="color: black !important;">ORGANISATIONS</a></li>
 	<li id="menu-item-24811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24811"><a href="individuals.html" style="color: black !important;"> INDIVIDUALS</a></li>
 	</ul>
-</li><li id="menu-item-24768" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24768"><a href="blog.html" style="color: black !important;">BLOG</a></li>
+</li><li id="menu-item-24768" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24768"><a href="blog.html" style="color: black !important;">MEDIA</a></li>
 <li id="menu-item-25987" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25987"><a href="book-a-call.html" style="color: black !important ;">BOOK A CALL</a></li>
 </ul>						
 </nav>
@@ -659,6 +659,35 @@ var et_pb_box_shadow_elements = [];
   gtag('js', new Date());
 
   gtag('config', 'G-FNSSG8DRLP');
+</script>
+<script type="text/javascript">
+	var message="Image Download Disabled!";
+
+	function clickIE4(){
+		if (event.button==2){
+			alert(message);
+			return false;
+		}
+	}
+
+	function clickNS4(e){
+		if (document.layers||document.getElementById&&!document.all){
+			if (e.which==2||e.which==3){
+				alert(message);
+				return false;
+			}
+		}
+	}
+
+	if (document.layers){
+		document.captureEvents(Event.MOUSEDOWN);
+		document.onmousedown=clickNS4;
+	}
+	else if (document.all&&!document.getElementById){
+		document.onmousedown=clickIE4;
+	}
+
+	document.oncontextmenu=new Function("alert(message);return false")
 </script>
 <script type="text/javascript" src="js/js-custom.js" id="et_monarch-custom-js-js"></script>
 <script type="text/javascript" src="js/js-common.js" id="et-core-common-js"></script>
